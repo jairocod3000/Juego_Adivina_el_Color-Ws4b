@@ -1,0 +1,77 @@
+body {
+    background-color: rgba(10, 9, 66, 0.76);
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#color-display {
+    font-size: 3em;
+    margin: 20px;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+#color-boxes {
+   margin-top: 100px; 
+   display: grid;
+   grid-template-columns: 150px 150px 150px;
+   justify-content: center;
+}
+
+.color-box {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+#mensaje {
+    margin: 20px;
+    font-size: 1.5em;
+    color: green;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    margin-right: 500px;
+}
+
+#menu {
+    float: right;
+    margin-right: 25%;
+}
+
+#menu ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+#menu ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#menu ul li a {
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+#menu ul li:hover {
+    background-color: aqua;
+    transition: ease-in 0.5s;
+    
+}
